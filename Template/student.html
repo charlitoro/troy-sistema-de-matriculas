@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <tittle></title>
+  <meta charset="utf-8">
+  <style>
+  html, body{
+    background-size: 100% 100%;
+    font-weight: 300;
+    height: 100%;
+    text-align: center;
+    color:#262B34;
+  }
+  .bold{
+    font-weight: 300;
+  }
+  table, th, td{
+    border: 1px solid black;
+  }
+  td{
+    text-align: center;
+  }
+  div.div1{
+    width: 1000px;
+    height: 110px;
+    align-items: center;
+  }
+  div.div2{
+    width: 1000px;
+    height: 430px;
+    align-items: center;
+  }
+  </style>
+</head>
+
+<body>
+  <div class="div1" style="border-style: double; border-radius:5px;">
+    <center>
+      <h1 style="font-family:courier;font-size:200%" class="bold">Reporte de matrícula</h1>
+      <p>Reporte de materias matriculadas</p>
+    </center>
+  </div>
+  <div class="div2">
+    <center>
+      <p>Código: {{code}}</p>
+      <p>Nombre: {{name}}</p>
+      <p>Programa: {{program}}</p>
+      <p>Semestre: {{semester}}</p>
+    </center>
+    <center>
+      <p style="font-family: bold; font-style: italic;">Materias matriculadas</p>
+      <table>
+        <tr>
+          <th style="background-color: #b6b7c8;">Código</th>
+          <th style="background-color: #b6b7c8;">Materia</th>
+          <th style="background-color: #b6b7c8;">Grupo</th>
+          <th style="background-color: #b6b7c8;">Semestre</th>
+          <th style="background-color: #b6b7c8;">Estado</th>
+
+        </tr>
+        <tr style="background-color: #ffffff;">
+          <td>{{code1}}</td>
+          <td>{{subject1}}</td>
+          <td>{{group1}}</td>
+          <td>{{semester1}}</td>
+          <td>{{state1}}</td>
+        </tr>
+        <tr style="background-color: #ffffff">
+          <td>{{code2}}</td>
+          <td>{{subject2}}</td>
+          <td>{{group2}}</td>
+          <td>{{semester2}}</td>
+          <td>{{state2}}</td>
+        </tr>
+        <tr style="background-color: #ffffff">
+          <td>{{code3}}</td>
+          <td>{{subject3}}</td>
+          <td>{{group3}}</td>
+          <td>{{semester3}}</td>
+          <td>{{state3}}</td>
+        </tr>
+        <tr style="background-color: #ffffff">
+          <td>{{code4}}</td>
+          <td>{{subject4}}</td>
+          <td>{{group4}}</td>
+          <td>{{semester4}}</td>
+          <td>{{state4}}</td>
+        </tr>
+        <tr style="background-color: #ffffff">
+          <td>{{code5}}</td>
+          <td>{{subject5}}</td>
+          <td>{{group5}}</td>
+          <td>{{semester5}}</td>
+          <td>{{state5}}</td>
+        </tr>
+        <tr style="background-color: #ffffff">
+          <td>{{code6}}</td>
+          <td>{{subject6}}</td>
+          <td>{{group6}}</td>
+          <td>{{semester6}}</td>
+          <td>{{state6}}</td>
+        </tr>
+        <tr style="background-color: #ffffff">
+          <td>{{code7}}</td>
+          <td>{{subject7}}</td>
+          <td>{{group7}}</td>
+          <td>{{semester7}}</td>
+          <td>{{state7}}</td>
+        </tr>
+      </table>
+    </center>
+    <center>
+      <p style="font-family: bold; font-style: italic;">Materias canceladas</p>
+      <table>
+        <tr>
+          <th style="background-color: #b6b7c8;">Código</th>
+          <th style="background-color: #b6b7c8;">Materia</th>
+          <th style="background-color: #b6b7c8;">Grupo</th>
+          <th style="background-color: #b6b7c8;">Semestre</th>
+          <th style="background-color: #b6b7c8;">Estado</th>
+        </tr>
+        <tr style="background-color: #ffffff;">
+          <td>{{code_cancel1}}</td>
+          <td>{{subject_cancel1}}</td>
+          <td>{{group_cancel1}}</td>
+          <td>{{semester_cancel1}}</td>
+          <td>{{state_cancel1}}</td>
+        </tr>
+        <tr style="background-color: #ffffff">
+          <td>{{code_cancel2}}</td>
+          <td>{{subject_cancel2}}</td>
+          <td>{{group_cancel2}}</td>
+          <td>{{semester_cancel2}}</td>
+          <td>{{state_cancel2}}</td>
+        </tr>
+        <tr style="background-color: #ffffff">
+          <td>{{code_cancel3}}</td>
+          <td>{{subject_cancel3}}</td>
+          <td>{{group_cancel3}}</td>
+          <td>{{semester_cancel3}}</td>
+          <td>{{state_cancel3}}</td>
+        </tr>
+        <tr style="background-color: #ffffff">
+          <td>{{code_cancel4}}</td>
+          <td>{{subject_cancel4}}</td>
+          <td>{{group_cancel4}}</td>
+          <td>{{semester_cancel4}}</td>
+          <td>{{state_cancel4}}</td>
+        </tr>
+      </table>
+    </center>
+  </div>
+</body>
+</html>
